@@ -30,7 +30,14 @@ def user_controls():
 def profile():
     return html.Div(
         [
-            
+            html.Div(
+                [
+                    html.H2("Profile", style={"font-size": "36px"}),
+                    html.Div([
+                        
+                    ])
+                ]
+            )
         ],
         className="nine columns bg-grey",
         style={
